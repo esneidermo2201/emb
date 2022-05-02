@@ -1,14 +1,14 @@
 #frase {
     text-align: center;
-    border: 5px rgb(54, 54, 255) outset; 
+    border: 5px rgb(118, 118, 222) outset; 
     margin-top: 0%; 
     font-size: 150%;
-    color:cornflowerblue;  
+    color:rgb(11, 85, 222);  
 }
 #titulo{
     background-image: url(./img10.jpg);
     padding: 10px 10px ;
-    border: 5px rgb(54, 54, 255) outset;
+    border: 5px rgb(10, 10, 196) outset;
     text-align: center;
     color: rgb(255, 255, 255);
     text-align: center;
@@ -18,9 +18,7 @@
     margin-right: 5%; 
     letter-spacing: 40px;
 }
-tr:nth-child(even) {
-    background-color: #9edddd;
-}
+
 main{
     padding: 2rem;
 }
@@ -35,20 +33,17 @@ main{
     flex-direction: column;
     width: 28rem;
     margin-bottom: 0.6rem;
+    padding: 1px;
+    margin-top: 15px;
+    margin-left: 8px;
+}
 
-}
 label{
-   
-    background-color: lightgray;
-    margin-top: 0.2rem;
-    margin-left: 0.2rem;
-    margin-bottom: 0.2rem;
-    width: 100%;
-}
-input{
-    background-color: lightgray;
-    margin-bottom: 0.2rem;
-    margin-left: 2rem;
+    flex-direction: column;
+    margin-bottom: 0.6rem;
+    padding: 1px;
+    margin-top: 30px;
+    margin-left: 10px;
 }
 #select{
     background-color:rgb(224, 235, 238);
@@ -87,6 +82,8 @@ article:hover{
     float: right;
     background: rgb(255, 255, 255);
     text-decoration: none;
+    padding: 3px 3px;
+    border-radius: 40px;
 }
 .foot2:hover{
     color: cornflowerblue;
@@ -100,37 +97,27 @@ article:hover{
     float: left;
     background: rgb(255, 255, 255);
     text-decoration: none;
-    margin: 0;
+    margin: 10;
 }
 button{
-    background: rgb(189, 189, 189);
-    border: 2px solid black;
+    background: rgb(189, 187, 187);
+    border: 1px solid black;
+    padding: 1px;
+    margin-bottom: 3px;
+    margin-left: 3px;
 }
 button:hover{
-    background-color: grey;
+    background-color: rgb(111, 111, 111);
 }
 
-footer section .foot{
-   float: right;
-   padding: 3px;
-   border: 1px solid black;
-   border-radius: 8px;
-   background-color: antiquewhite;
-}
+
 .foot2{
     float: right;
-    padding: 3px;
-    border: 1px solid black;
+    padding: 3px 3px;
+    text-decoration: none;
     margin-right: 2px;
-    border-radius: 8px;
-    background-color: antiquewhite;
+    border-radius: 40px;
  }
+ 
 
-footer p{
-    margin: 0;
-}
 
-table, td, th{
-    border: 1px solid rgb(223, 213, 213);
-    width: 500px;
-}

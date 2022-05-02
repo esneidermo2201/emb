@@ -64,15 +64,15 @@
             <form class="formulario" action="enviar.php" method="post">
                 <div class="div">
                     <label class="nombre">Nombre:</label>
-                    <input type="text" name="nombre" placeholder="coloca tu Nombre" required autocomplete />
+                    <input class="inputnombre" type="text" name="nombre" placeholder="coloca tu Nombre" required autocomplete />
                 </div>
                 <div class="div">
                     <label class="apellido">Apellido:</label>
-                    <input type="text" name="apellido" placeholder="coloca tu Apellido" required autocomplete />
+                    <input class="inputnombre" type="text" name="apellido" placeholder="coloca tu Apellido" required autocomplete />
                 </div>
                 <div class="div">
                     <label for="correo"><i class="far fa-envelope"></i>Email:</label>
-                    <input type="email" name="correo" placeholder="coloca tu email">
+                    <input class="inputemail" type="email" name="correo" placeholder="coloca tu email">
                 </div>
                 <div class="div">
                     <label><i class="far fa-user-circle"></i>Género:</label>
@@ -94,8 +94,8 @@
                 </div>
                 <div>
                     <!-- con el atributo type podemos usar el metodo Reset, Submit y Button y el valor por defecto es el de submit-->
-                    <button type="submit">Enviar</button>
-                    <button type="reset">Borrar</button>
+                    <button id="boton" type="submit">Enviar</button>
+                    <button id="reset" type="reset">Borrar</button>
                 </div>
                 <!-- la diferencia entre las etiqueta inpuy y button es que en la de button podemos personalizar mejor y podemos agregar mas etiquetas -->
             </form>
