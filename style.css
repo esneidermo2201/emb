@@ -1,6 +1,136 @@
-h1{
-    background-color: aqua;
+#frase {
+    text-align: center;
+    border: 5px rgb(54, 54, 255) outset; 
+    margin-top: 0%; 
+    font-size: 150%;
+    color:cornflowerblue;  
 }
-h2{
-    background-color: blue ;
+#titulo{
+    background-image: url(./img10.jpg);
+    padding: 10px 10px ;
+    border: 5px rgb(54, 54, 255) outset;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size:600%;
+    margin: 0 auto;
+    margin-left: 5%;
+    margin-right: 5%; 
+    letter-spacing: 40px;
+}
+tr:nth-child(even) {
+    background-color: #9edddd;
+}
+main{
+    padding: 2rem;
+}
+#fomulario{
+    justify-content: space-between;
+    padding: 0 1rem;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+.div{
+    flex-direction: column;
+    width: 28rem;
+    margin-bottom: 0.6rem;
+
+}
+label{
+   
+    background-color: lightgray;
+    margin-top: 0.2rem;
+    margin-left: 0.2rem;
+    margin-bottom: 0.2rem;
+    width: 100%;
+}
+input{
+    background-color: lightgray;
+    margin-bottom: 0.2rem;
+    margin-left: 2rem;
+}
+#select{
+    background-color:rgb(224, 235, 238);
+}
+textarea{
+    width: 95%;
+    height:200px;
+}
+.tit{
+    font-size: 2rem;
+    color: cornflowerblue;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 10px 8px 10px  rgb(0, 0, 0);
+}
+.form{
+    background-color: rgb(230, 230, 230);
+    border: 2px solid black;
+}
+article{
+    transition: box-shadow 0.4s linear;
+    width: 600px;
+    height: 500px;
+    text-align: center;
+    margin: 0 auto;
+    box-shadow: 1px 4px  15px  8px rgb(169, 168, 168);
+    cursor: pointer;
+}
+
+article:hover{
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,1);
+}
+
+.foot{
+    transition: color 0.3s;
+    float: right;
+    background: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.foot2:hover{
+    color: cornflowerblue;
+    background: lightgray;
+}
+.foot:hover{
+    color: cornflowerblue;
+    background: lightgray;
+}
+#copyrigth{
+    float: left;
+    background: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 0;
+}
+button{
+    background: rgb(189, 189, 189);
+    border: 2px solid black;
+}
+button:hover{
+    background-color: grey;
+}
+
+footer section .foot{
+   float: right;
+   padding: 3px;
+   border: 1px solid black;
+   border-radius: 8px;
+   background-color: antiquewhite;
+}
+.foot2{
+    float: right;
+    padding: 3px;
+    border: 1px solid black;
+    margin-right: 2px;
+    border-radius: 8px;
+    background-color: antiquewhite;
+ }
+
+footer p{
+    margin: 0;
+}
+
+table, td, th{
+    border: 1px solid rgb(223, 213, 213);
+    width: 500px;
 }
