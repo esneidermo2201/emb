@@ -65,7 +65,7 @@ textarea{
 }
 article{
     transition: box-shadow 0.4s linear;
-    width: 700px;
+    width: 100%;
     height: auto;
     text-align: center;
     margin: 0 auto;
