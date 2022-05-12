@@ -65,8 +65,8 @@ textarea{
 }
 article{
     transition: box-shadow 0.4s linear;
-    width: 600px;
-    height: 400px;
+    width: 100%;
+    height: auto;
     text-align: center;
     margin: 0 auto;
     box-shadow: 1px 4px  15px  8px rgb(169, 168, 168);
@@ -121,7 +121,7 @@ button:hover{
  @media only screen and (max-width: 600px) {
   body {
     background-color: lightblue;
-       width: 100%;
+    width: 100%;
     height: auto;
   }
 }
